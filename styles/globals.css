@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.debug{
+
+  border: 1px  solid red;
+
+}
+.nombre1>img
+ {
+
+  @apply h-24 w-72 rounded-full;
+  
+  /*height: 150;
+  width: 150;
+  border-radius: 90%;
+*/
+ }
+
+
+
+.nombre1{
+  @apply flex flex-col items-center px-2 py-2 w-72 h-full;
+
+  /*display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  pad: 10px 10px;*/
+}
+
+.todos{
+  @apply flex justify-between w-72;
+}
+*{
+margin:0;
+
+}
+.todos2{
+  @apply flex justify-between h-1/4 w-[970px];
+
+}
